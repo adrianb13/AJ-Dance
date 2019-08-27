@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Dance Floor",
+    "image": "./images/floor2.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Booths",
+    "image": "./images/booths2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Stage",
+    "image": "./images/stage2.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Tables",
+    "image": "./images/tables2.jpg"
+  }
+]
