@@ -4,7 +4,7 @@ import PicCarousel from "../PicCarousel";
 class Home extends React.Component {
   state = {
     flash: true,
-    border: '3px solid red'
+    border: '5px solid purple'
   }
 
   componentDidMount() {
@@ -23,11 +23,11 @@ class Home extends React.Component {
   flashing = () => {
     if (this.state.flash === false) {
       this.setState({
-        border: '3px solid pink'
+        border: '5px solid pink'
       })
     } else {
       this.setState({
-        border: '3px solid red'
+        border: '5px solid purple'
       })
     }
   }
@@ -67,6 +67,15 @@ class Home extends React.Component {
             <div className="und">Location:</div>
             <div>8351 Garden Grove Blvd</div>
             <div>Garden Grove, CA 92844</div>
+          </div>
+          <div className="bord"></div>
+          <div className="adr">
+            <div className="und">Weekly Event:</div>
+            <div className="red">"Forever Young Event"</div>
+            <div>Thursdays: 8:00pm - 12:00am</div>
+            <div>$15/Person (Incl. Dinner)</div>
+            <div>Open To The Public</div>
+            <div className="pad">DJ: Vingo Regino from April Boys</div>
           </div>
         </div>
         <div className="backCar">
