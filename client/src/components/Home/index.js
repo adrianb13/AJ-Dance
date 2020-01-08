@@ -8,7 +8,7 @@ class Home extends React.Component {
   }
 
   componentDidMount() {
-    this.flashInterval();
+    //this.flashInterval();
   }
 
   flashInterval = () => {
@@ -33,13 +33,13 @@ class Home extends React.Component {
   }
 
   render () {
-    const styles = {
+/*     const styles = {
       textStyle: {
         border: this.state.border
       }
     };
 
-    const { textStyle } = styles
+    const { textStyle } = styles */
 
     return (
       <div className="app">
@@ -60,7 +60,7 @@ class Home extends React.Component {
             <div className="marg3">
               <img src="./images/dancer1.png" className="dancer1" alt="dancer1"></img>
               <div className="spotlight1"></div>
-              <div className="book" style={textStyle}>
+              <div className="book" /* style={textStyle} */>
                 <div className="und">Book Your Next Event</div>
                 <div>Aida Jugo</div>
                 <div>(909) 680-2062</div>

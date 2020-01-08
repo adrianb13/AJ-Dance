@@ -1,4 +1,5 @@
 .app {
+  font-family: 'Courgette', cursive;
   text-align: center;
 }
 
@@ -125,8 +126,14 @@
   font-size: 35px;
   font-weight: bold;
   padding: 10px 15px;
+  border: 3px solid purple;
   border-radius: 20px;
+  box-shadow: inset 2px 2px 5px purple,
+  inset -2px 2px 5px purple,
+  inset 2px -2px 5px purple,
+  inset -2px -2px 5px purple;
   margin: 10px;
+  animation: frame 3s infinite;
 }
 
 .adr {
@@ -287,5 +294,21 @@
   }
   100% {
     transform: translateX(-100%);
+  }
+}
+
+@keyframes frame {
+  0% {
+    border: 3px solid purple;
+  }
+  50% {
+    border: 3px solid pink;
+    box-shadow: inset 2px 2px 5px pink,
+    inset -2px 2px 5px pink,
+    inset 2px -2px 5px pink,
+    inset -2px -2px 5px pink;
+  }
+  100% {
+    border: 3px solid purple;
   }
 }
