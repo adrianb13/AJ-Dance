@@ -57,10 +57,13 @@ class Home extends React.Component {
         <div className="marg">
           <div className="disp">
             <div className="profile"></div>
-            <div className="book" style={textStyle}>
-              <div className="und">Book Your Next Event</div>
-              <div>Aida Jugo</div>
-              <div>(909) 680-2062</div>
+            <div>
+              <img src="./images/dancer1.png" className="dancer1" alt="dancer1" height="100px"></img>
+              <div className="book" style={textStyle}>
+                <div className="und">Book Your Next Event</div>
+                <div>Aida Jugo</div>
+                <div>(909) 680-2062</div>
+              </div>
             </div>
           </div>
           <div className="adr">
