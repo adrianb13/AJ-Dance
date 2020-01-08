@@ -57,13 +57,16 @@ class Home extends React.Component {
         <div className="marg">
           <div className="disp">
             <div className="profile"></div>
-            <div>
-              <img src="./images/dancer1.png" className="dancer1" alt="dancer1" height="100px"></img>
+            <div className="marg3">
+              <img src="./images/dancer1.png" className="dancer1" alt="dancer1"></img>
+              <div className="spotlight1"></div>
               <div className="book" style={textStyle}>
                 <div className="und">Book Your Next Event</div>
                 <div>Aida Jugo</div>
                 <div>(909) 680-2062</div>
               </div>
+              <img src="./images/dancer2.png" className="dancer2" alt="dancer2"></img>
+              <div className="spotlight2"></div>
             </div>
           </div>
           <div className="adr">
