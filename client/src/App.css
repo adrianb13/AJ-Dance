@@ -251,49 +251,49 @@
 
 @keyframes dance1 {
   0% {
-    transform: translateX(100%) rotateY(180deg) ;
+    transform: translateX(50%) rotateY(180deg) ;
   }
   50% {
-    transform: translateX(-100%) rotateY(0) ;
+    transform: translateX(-150%) rotateY(0) ;
   }
   100% {
-    transform: translateX(100%) rotateY(180deg) ;
+    transform: translateX(50%) rotateY(180deg) ;
   }
 }
 
 @keyframes spotlight1 {
   0% {
-    transform: translateX(100%);
+    transform: translateX(50%);
   }
   50% {
-    transform: translateX(-100%);
+    transform: translateX(-150%);
   }
   100% {
-    transform: translateX(100%);
+    transform: translateX(50%);
   }
 }
 
 @keyframes dance2 {
   0% {
-    transform: translateX(-100%) rotateY(0) ;
+    transform: translateX(-150%) rotateY(0) ;
   }
   50% {
-    transform: translateX(100%) rotateY(360deg) ;
+    transform: translateX(50%) rotateY(360deg) ;
   }
   100% {
-    transform: translateX(-100%) rotateY(0) ;
+    transform: translateX(-150%) rotateY(0) ;
   }
 }
 
 @keyframes spotlight2 {
   0% {
-    transform: translateX(-100%);
+    transform: translateX(-150%);
   }
   50% {
-    transform: translateX(100%);
+    transform: translateX(50%);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-150%);
   }
 }
 
