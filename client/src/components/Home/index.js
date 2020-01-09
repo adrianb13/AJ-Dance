@@ -44,13 +44,15 @@ class Home extends React.Component {
     return (
       <div className="app">
         <div className="backHome">
-          <div className="hBox">
+          <div className="hBox2">
+          <div className="hBox">  
             <h1 className="head1 hpad">
               <div>Aida Jugo</div>
               <div>Social Dance</div> 
               <div>& Ballroom </div>
               <div>Events</div>
             </h1>
+            </div>
           </div>
         </div>
         <div className="steps"></div>
